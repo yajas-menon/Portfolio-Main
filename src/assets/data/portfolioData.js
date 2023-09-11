@@ -12,7 +12,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Material UI", "Node.js", "MongoDB"],
-    siteUrl: "",
+    siteUrl: "https://github.com/yajas-menon/Mern-HackerPedia/tree/master",
 
   },
   {
@@ -23,7 +23,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["HTML", "Tailwind css", "Javascript"],
-    siteUrl: "#",
+    siteUrl: "https://github.com/yajas-menon/ip-address-tracker",
   },
   {
     id: "03",
@@ -33,7 +33,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://github.com/yajas-menon/Betel-Net-Project",
   },
   {
     id: "04",
@@ -45,8 +45,6 @@ const portfolios = [
     technologies: ["React", "Tailwind css"],
     siteUrl: "#",
   },
-
-
 
 ];
 
