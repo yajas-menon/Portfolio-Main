@@ -11,7 +11,7 @@ const Contact = () => {
         
         emailsjs.sendForm('service_de6yhir', 'template_8u7vab4', form.current, 'lsezoTTwZcd7bEFnW' )
             .then((result)=>{
-                alert('Details Submitted Successfully Thanks!')
+                console.log(result.text)
             }, (error) =>{
                 console.log(error.text);
             });
