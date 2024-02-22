@@ -40,7 +40,7 @@ const Contact = () => {
                                 <textarea type='text' name='message' rows={3} placeholder='Write Your Message' className='w-full p-3 focus:outline-none rounded-[5px]'></textarea>
                             </div>
 
-                            <button type='submit' className='w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-black text-center ease-linear duration-150'>
+                            <button type='submit' className='w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white  text-center ease-linear duration-150 hover:bg-black'>
                                 Send Message
                             </button>
                         </form>
