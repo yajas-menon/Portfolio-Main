@@ -31,13 +31,13 @@ const Contact = () => {
                     <div className='w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8'>
                         <form className='w-full' ref={form} onSubmit={sendEmail}>
                             <div className='mb-5'>
-                                <input type='text' name='user_name' placeholder='Enter your name' className='w-full p-3 focus:outline-none rounded-[5px]'></input>
+                                <input type='text' name='user_name' placeholder='Enter your name' className='w-full p-3 focus:outline-none rounded-[5px]' required ></input>
                             </div>
                             <div className='mb-5'>
-                                <input type='text' name='user_email' placeholder='Enter your email' className='w-full p-3 focus:outline-none rounded-[5px]'></input>
+                                <input type='text' name='user_email' placeholder='Enter your email' className='w-full p-3 focus:outline-none rounded-[5px]' required ></input>
                             </div>
                             <div className='mb-5'>
-                                <textarea type='text' name='message' rows={3} placeholder='Write Your Message' className='w-full p-3 focus:outline-none rounded-[5px]'></textarea>
+                                <textarea type='text' name='message' rows={3} placeholder='Write Your Message' className='w-full p-3 focus:outline-none rounded-[5px]' required ></textarea>
                             </div>
 
                             <button type='submit' className='w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white  text-center ease-linear duration-150 hover:bg-black'>
